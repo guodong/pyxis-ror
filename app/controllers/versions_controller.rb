@@ -1,0 +1,3 @@
+class VersionsController < BaseController
+
+end

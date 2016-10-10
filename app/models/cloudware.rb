@@ -1,0 +1,3 @@
+class Cloudware < ApplicationRecord
+
+end
