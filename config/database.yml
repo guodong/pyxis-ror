@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: cloudware_production
+  database: cloudwarehub_production
   username: postgres
   password: <%= ENV['DATABASE_PASSWORD'] %>
