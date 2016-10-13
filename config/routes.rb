@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   jsonapi_resources :versions
   jsonapi_resources :instances
   jsonapi_resources :hosts
+  jsonapi_resources :files
 end
