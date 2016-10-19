@@ -1,5 +1,5 @@
 class VersionResource < BaseResource
-  attributes :name, :cmd
+  attributes :name, :cmd, :arch
 
   relationship :cloudware, to: :one
 end
